@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhonatha Martins | Especialista em Integrações N8N</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Gradiente Azul Cruzeiro */
+        .gradient-text {
+            background: linear-gradient(to right, #1d4ed8, #60a5fa); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        /* Fundo com pontilhado azul */
+        .hero-bg {
+            background-color: #0f172a;
+            background-image: radial-gradient(#3b82f6 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-50 antialiased selection:bg-blue-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-sm border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold tracking-tight">Jhonatha<span class="text-blue-500">.n8n</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition">Início</a>
+                        <a href="#servicos" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition">Serviços</a>
+                        <a href="#contato" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition">Contratar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 hero-bg opacity-20 z-0"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
+                Automatize o seu negócio com <br>
+                <span class="gradient-text">Integrações Inteligentes</span>
+            </h1>
+            <p class="mt-4 text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Sou Jhonatha Martins, expert em n8n. Conecto suas ferramentas, elimino tarefas repetitivas e faço seus dados trabalharem por você.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#contato" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105 shadow-lg shadow-blue-500/30">
+                    Fazer Orçamento
+                </a>
+                <a href="#servicos" class="border border-slate-600 hover:border-blue-500 text-slate-300 hover:text-white font-bold py-3 px-8 rounded-full transition">
+                    Ver Soluções
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white">O que eu faço?</h2>
+                <p class="mt-2 text-slate-400">Soluções customizadas para escalar sua operação.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <div class="text-blue-500 text-3xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold text-white mb-2">Automação de CRM</h3>
+                    <p class="text-slate-400">Integro seu CRM (Pipedrive, HubSpot, RD) com WhatsApp e e-mail marketing automaticamente.</p>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <div class="text-blue-500 text-3xl mb-4">🤖</div>
+                    <h3 class="text-xl font-bold text-white mb-2">Chatbots & IA</h3>
+                    <p class="text-slate-400">Criação de fluxos inteligentes no n8n conectados à OpenAI (ChatGPT) para atendimento.</p>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-2xl border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <div class="text-blue-500 text-3xl mb-4">📊</div>
+                    <h3 class="text-xl font-bold text-white mb-2">Dashboards & Dados</h3>
+                    <p class="text-slate-400">Unificação de dados de múltiplas fontes para planilhas ou bancos de dados em tempo real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-20 relative">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-800 rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-700">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-white">Vamos conversar?</h2>
+                    <p class="mt-2 text-slate-400">Preencha abaixo e entrarei em contato diretamente pelo WhatsApp.</p>
+                </div>
+
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-slate-300">Seu Nome</label>
+                        <input type="text" id="name" required class="mt-1 block w-full bg-slate-900 border border-slate-600 rounded-lg py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="Ex: João Silva">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-slate-300">Seu Email</label>
+                        <input type="email" id="email" required class="mt-1 block w-full bg-slate-900 border border-slate-600 rounded-lg py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="exemplo@email.com">
+                    </div>
+                    
+                    <div>
+                        <label for="company" class="block text-sm font-medium text-slate-300">Empresa (Opcional)</label>
+                        <input type="text" id="company" class="mt-1 block w-full bg-slate-900 border border-slate-600 rounded-lg py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="Sua Empresa">
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-slate-300">Como posso ajudar?</label>
+                        <textarea id="message" rows="4" required class="mt-1 block w-full bg-slate-900 border border-slate-600 rounded-lg py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" placeholder="Preciso integrar meu e-commerce com..."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-bold py-4 px-8 rounded-lg shadow-lg transform transition hover:-translate-y-1">
+                        🚀 Enviar Mensagem no WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>&copy; 2025 Jhonatha Martins. Todos os direitos reservados.</p>
+            <p class="mt-2">Expert em Automação e Integrações n8n.</p>
+            <p class="mt-2 text-blue-400 font-medium">jhonathan8n@gmail.com</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Coleta os dados
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const company = document.getElementById('company').value;
+            const message = document.getElementById('message').value;
+
+            // Meu número
+            const phoneNumber = "5531982460669"; 
+
+           
+            
+            const rawMessage = `*Nova solicitação de Integração* \uD83D\uDE80\n\n` +
+                               `\*Nome:* ${name}\n` +
+                               `\*Email:* ${email}\n` +
+                               `\*Empresa:* ${company ? company : 'Não informado'}\n` +
+                               `\*Mensagem:* ${message}`;
+
+            // Codifica a URL (Converte espaços e acentos para %20, etc)
+            const encodedMessage = encodeURIComponent(rawMessage);
+
+            // Cria o link final
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+            // Abre o WhatsApp
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
