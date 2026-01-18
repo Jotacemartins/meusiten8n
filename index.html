@@ -152,11 +152,11 @@
 
            
             
-            const rawMessage = `*Nova solicitação de Integração* \uD83D\uDE80\n\n` +
-                               `\*Nome:* ${name}\n` +
-                               `\*Email:* ${email}\n` +
-                               `\*Empresa:* ${company ? company : 'Não informado'}\n` +
-                               `\*Mensagem:* ${message}`;
+            const rawMessage = `Nova solicitação de Integração` +
+                               `\Nome: ${name}\n` +
+                               `\Email: ${email}\n` +
+                               `\Empresa: ${company ? company : 'Não informado'}\n` +
+                               `\Mensagem: ${message}`;
 
             // Codifica a URL (Converte espaços e acentos para %20, etc)
             const encodedMessage = encodeURIComponent(rawMessage);
